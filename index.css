@@ -1,0 +1,128 @@
+body {
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(0, 0, 0) 100%);
+}
+
+.following {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 50px;
+    border-bottom: 1px solid black;
+   padding: 30px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+ .navbar {
+    border-bottom: 1px solid gray;
+ }
+
+.main{
+    display: flex;
+   justify-content: center;
+   justify-content: space-between;
+   margin: 50px;
+   border-bottom: 1px solid black;
+   padding: 10px;
+   color: azure;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+    
+}
+
+a:hover {
+    color: red;
+}
+
+.mac, img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.content a{
+    color: black;
+}
+.content {
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+   
+.upload {
+    border: 1px solid pink;
+    width: 70%;
+    height: 50%;
+    background-color: rgb(226, 233, 235);
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#Submit {
+    margin-left: 90%;
+}
+
+
+.proMember {
+
+    display: inline-flex;
+    padding: 30px;
+    justify-content: center;
+    margin-left: 200px;
+    
+   
+
+}
+
+button:hover {
+    transition-duration: width 1s, height 1s;
+    width: 70px;
+    height: 30px;
+    
+}
+
+.login {
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 150px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    color: aliceblue;
+}
+
+.table{
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+   margin: 20px;
+   padding: 5px;
+}
+
+table {
+  margin: auto;
+}
+
+.gif
+{
+position: absolute;
+top: 70px;
+left: 600px;
+
+}
